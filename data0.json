@@ -1,0 +1,382 @@
+{
+    "cover": {
+        "image": "https://patient.pep-server.ru/images/header-image.png",
+        "description": "Пациентка женщина 32 года на амбулаторном приёме у врача-уролога"
+    },
+    "firstVisitToTheDoctor": [
+        {
+            "defaultImage": "https://patient.pep-server.ru/images/secbtn1_1.d0da40f3.svg",
+            "cardName": "Жалобы",
+            "cardDescription": "Жалобы  на частые императивные позывы к мочеиспусканию малыми порциями мочи, иногда рези и боли, особенно в конце мочеиспускания, дискомфорт, болезненность внизу живота (над лоном).",
+            "isReviewed": false
+        },
+        {
+            "defaultImage": "https://patient.pep-server.ru/images/secbtn1_2.220aec57.svg",
+            "cardName": "Анамнез заболевания",
+            "cardDescription": "Данные жалобы беспокоят в течение нескольких дней, возникли через 1 неделю после эпизода переохлаждения. Пациентка отмечает, что подобные симптомы не впервые. Обострение может возникать на фоне стресса, переохлаждения, иногда после полового акта. В анамнезе хронический цистит последние 3 года. Со слов пациентки в течение года могут возникать 3-4 эпизода обострения цистита. Последний эпизод обострения – 4 недели назад, лечилась самостоятельно (амоксициллин, фитопрепараты). У уролога постоянно не наблюдалась.",
+            "isReviewed": false
+        },
+        {
+            "defaultImage": "https://patient.pep-server.ru/images/secbtn1_3.6fefac81.svg",
+            "cardName": "Анамнез жизни",
+            "cardDescription": "Пациентка замужем, детей нет, половой партнёр один. Работает кассиром в магазине.",
+            "typesDescription": [
+                {
+                    "type": "Хронические, заболевания",
+                    "description": "отрицает. Венерические заболевания, туберкулёз, гепатит, ВИЧ отрицает. В 9 лет аппендэктомия."
+                },
+                {
+                    "type": "Урологический анамнез",
+                    "description": "не отягощён."
+                },
+                {
+                    "type": "Аллергологический анамнез",
+                    "description": "не отягощен."
+                },
+                {
+                    "type": "Вредные привычки:",
+                    "description": "иногда употребляет алкоголь."
+                }
+            ],
+            "isReviewed": false
+        },
+        {
+            "defaultImage": "https://patient.pep-server.ru/images/secbtn1_4.8a978941.svg",
+            "cardName": "Объективные данные",
+            "cardDescription": "При осмотре:",
+            "typesDescription": [
+                {
+                    "type": "Общее состояние",
+                    "description": "удовлетворительное. Сознание ясное. Положение активное. Рост = 173 см, вес = 70 кг."
+                },
+                {
+                    "type": "Кожные покровы",
+                    "description": "обычной окраски, чистые, умеренной влажности."
+                },
+                {
+                    "type": "Склеры",
+                    "description": "белые"
+                },
+                {
+                    "type": "Лимфатические узлы",
+                    "description": "не увеличены. Отёков нет."
+                },
+                {
+                    "type": "При аускультации",
+                    "description": "дыхание везикулярное, без хрипов. Тоны сердца ясные, ритмичные."
+                },
+                {
+                    "type": "АД",
+                    "description": "= 120/70 мм рт.ст., ЧСС = 68 уд/мин."
+                },
+                {
+                    "type": "Язык",
+                    "description": "влажный, слегка обложен беловатым налётом у корня."
+                },
+                {
+                    "type": "Живот",
+                    "description": "симметричный, не вздут, участвует в акте дыхания, при пальпации дискомфорт и болезненность в надлобковой области в проекции мочевого пузыря. Перитонеальных симптомов нет."
+                }
+            ],
+            "isReviewed": false
+        }
+    ],
+    "surveyPlan": {
+        "numberOfAttempts": 0,
+        "isFinalState": false,
+        "hint": {
+            "image": null,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero laudantium veniam at! Nisi consectetur cumque omnis eum eaque ad repellat quidem impedit soluta porro, doloribus, inventore tenetur vitae quia totam."
+        },
+        "variants": [
+            {
+                "variantName": "Общий анализ мочи",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Микробиологическое исследование мочи",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Биохимический анализ крови",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Дневник мочеиспускания",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Опросник симптомов острого цистита (ACSS)",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Пальцевое ректальное исследование",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "КТ мочевого пузыря",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "КТ почек",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "УЗИ мочевого пузыря",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "УЗИ почек",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Цистоскопия",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Экскреторная урография",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Консультация гинеколога",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Консультация онколога",
+                "isChecked": false,
+                "isCorrectVariant": false
+            }
+        ],
+        "isCurrentStage": false
+    },
+    "surveyResults": {
+        "isCurrentStage": false,
+        "results": [
+            {
+                "defaultImage": "https://patient.pep-server.ru/images/secbtn2_1.89827927.svg",
+                "cardName": "Лабораторные исследования",
+                "cardDescription": {
+                    "head": "Заключение",
+                    "description": "Из исследуемого материала выделен Escherichia coli выше нормы; количество лактобацилл соответствует норме. Изменена чувствительность к АБ ко всем группам антибиотиков, кроме амоксициллина, ципрофлоксацина."
+                },
+                "descriptionImage": "https://patient.pep-server.ru/images/screen001.png",
+                "isReviewed": false
+            },
+            {
+                "defaultImage": "https://patient.pep-server.ru/images/secbtn2_2.f2ecf498.svg",
+                "cardName": "Дневник мочеиспускания",
+                "cardDescription": {
+                    "head": "",
+                    "description": ""
+                },
+                "descriptionImage": "https://patient.pep-server.ru/images/screen002.png",
+                "isReviewed": false
+            },
+            {
+                "defaultImage": "https://patient.pep-server.ru/images/secbtn2_3.2a75185e.svg",
+                "cardName": "Шкала ACSS",
+                "cardDescription": {
+                    "head": "",
+                    "description": ""
+                },
+                "descriptionImage": "https://patient.pep-server.ru/images/screen003.png",
+                "isReviewed": false
+            },
+            {
+                "defaultImage": "https://patient.pep-server.ru/images/secbtn2_7.133cea3a.svg",
+                "cardName": "Консультации гинеколога",
+                "cardDescription": {
+                    "head": "Заключение",
+                    "description": "Наружние половые органы развиты правильно. O.S: шейка матки чистая. Выделения светлые, умеренные. P.v.: тело матки не увеличено, ровное, плотное, подвижное безболезненное. Придатки с обеих сторон не увеличены, безболезненные. Тракции за шейку матки безболезненные."
+                },
+                "descriptionImage": null,
+                "isReviewed": false
+            }
+        ]
+    },
+    "principalDiagnosis": {
+        "headName": "Основной урологический диагноз",
+        "numberOfAttempts": 0,
+        "isFinalState": false,
+        "hint": {
+            "image": null,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero laudantium veniam at! Nisi consectetur cumque omnis eum eaque ad repellat quidem impedit soluta porro, doloribus, inventore tenetur vitae quia totam."
+        },
+        "variants": [
+            {
+                "variantName": "Опухоль шейки мочевого пузыря",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Острый цистит",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Хронический цистит (обострение)",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Острый уретрит",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Хронический вульвовагинит",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Мочекаменная болезнь",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Острый пиелонефрит",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Склероз шейки мочевого пузыря",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Нейрогенная гипотония мочевого пузыря",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Стрессовое недержание мочи",
+                "isChecked": false,
+                "isCorrectVariant": false
+            }
+        ],
+        "isCurrentStage": false
+    },
+    "treatment": {
+        "headName": "Лечение",
+        "numberOfAttempts": 0,
+        "isFinalState": false,
+        "hint": {
+            "image": null,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero laudantium veniam at! Nisi consectetur cumque omnis eum eaque ad repellat quidem impedit soluta porro, doloribus, inventore tenetur vitae quia totam."
+        },
+        "variants": [
+            {
+                "variantName": "Фосфомицин",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Ципрофлоксацин",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Цефиксим",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Амоксициллин",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Канефрон® H (в острый период, затем продолжить с целью профилактики до 3-х месяцев)",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Ингибиторы ацетилхолинэстеразы",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Миореалаксанты",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "М-холиноблокаторы ",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Лиофилизированный лизат Escherichia Coli (вне обострения)",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Рекомендовать обильное питьё (не менее 2 л/сут.)",
+                "isChecked": false,
+                "isCorrectVariant": true
+            },
+            {
+                "variantName": "Рекомендовать уменьшить водную нагрузку (не более 1,5 л/сут.)",
+                "isChecked": false,
+                "isCorrectVariant": false
+            },
+            {
+                "variantName": "Посткоитальная антибиотикопрофилактика",
+                "isChecked": false,
+                "isCorrectVariant": true
+            }
+        ],
+        "isCurrentStage": false
+    },
+    "summary": {
+        "description": "В соответствии с клиническими рекомендациями при подозрении на рецидивирующий (хронический) цистит для верификации диагноза:",
+        "recommendations": [
+            {
+                "key": true,
+                "description": "всем  пациентам  при  осложнённом  или рецидивирующем  (хроническом)  цистите  выполнение  общего (клинического) анализа мочи для выявления признаков воспаления мочевых путей."
+            },
+            {
+                "key": true,
+                "description": "выполнять микробиологическое (культуральное) исследование мочи на бактериальные патогены пациентам с осложнённым или рецидивирующем (хроническом) цистите для уточнения возбудителя."
+            },
+            {
+                "key": false,
+                "description": "рутинное  проведение  расширенного обследования  (ульразвукового  исследования  (УЗИ),  и/или цистоскопии) при остром цистите или обострении рецидивирующего (хронического) цистита;"
+            },
+            {
+                "key": true,
+                "description": "консультация гинеколога."
+            }
+        ],
+        "treatment": [
+            "пациентам с рецидивирующим (хроническим) циститом рекомендуется назначение фосфомицина в дозе 3 г 1 раз через 10 дней, на протяжении 3 месяцев, с целью лечения и профилактики обострений;",
+            "пациентам с острым неосложненным циститом рекомендуется назначение фуразидина или нитрофурантоина в дозах, соответствующих инструкции к препарату;",
+            "пациентам с неосложненным циститом не рекомендуется назначение антибиотиков группы хинолонов (фторхинолонов)."
+        ],
+        "prevention": [
+            "пациентам с рецидивирующим (хроническим) циститом рекомендуется прием фитотерапевтического  препарата, содержащего золототысячник, корень любистока, листья розмарина обыкновенного (Канефрон® H) в дозе 2 т (или по 50 кап) 3 раза в день, в течение 3-х месяцев приема для профилактики рецидивов цистита;",
+            "пациентам с частыми рецидивами бактериального цистита рекомендуется назначение иммунопрофилактики лиофилизированным лизатом бактерий Escherihia coli с целью иммунопрофилактики по 1 капсуле х1 раз в день – 3 мес;",
+            "пациентам с рецидивирующим (хроническим) циститом рекомендуются инстилляции протектора вязкоэластичного стерильного для слизистой мочевого пузыря, содержащего гиалуроновую кислоту, в мочевой пузырь, вне стадии обострения с целью профилактики рецидивов.",
+            "пациенткам, которые отмечают взаимосвязь обострения хронического цистита с половым актом рекомендуется посткоитальная антибиотикопрофилактика."
+        ],
+        "isCurrentStage": false
+    },
+    "resultsOfTreatment": {
+        "description": "Результаты лечения",
+        "descriptionImage": "https://patient.pep-server.ru/images/screen004.png",
+        "isCurrentStage": false
+    }
+}
